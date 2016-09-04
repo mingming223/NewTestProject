@@ -1,9 +1,9 @@
-﻿Log file open, 09/04/16 13:50:24
+﻿Log file open, 09/04/16 15:09:11
 LogInit:Display: Running engine for game: NewTestProject
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-10432463) SRandInit(-10432462).
+LogInit:Display: RandInit(-958801993) SRandInit(-958801991).
 LogTaskGraph: Started task graph with 4 named threads and 6 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.077268
+LogStats: Stats thread started at 0.075175
 LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
 LogInit: API Version: 2992821
 LogInit: Net Version: 3039270
@@ -44,363 +44,724 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.09.04-17.50.24:457][  0]LogInit: Selected Device Profile: [Windows]
-[2016.09.04-17.50.24:457][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.09.04-17.50.24:471][  0]LogInit: Computer: DESKTOP-C0NVLFH
-[2016.09.04-17.50.24:472][  0]LogInit: User: kamer
-[2016.09.04-17.50.24:472][  0]LogInit: CPU Page size=65536, Cores=3
-[2016.09.04-17.50.24:472][  0]LogInit: High frequency timer resolution =3.433386 MHz
-[2016.09.04-17.50.24:472][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2016.09.04-17.50.24:472][  0]LogMemory: Platform Memory Stats for Windows
-[2016.09.04-17.50.24:472][  0]LogMemory: Process Physical Memory: 190.04 MB used, 190.04 MB peak
-[2016.09.04-17.50.24:472][  0]LogMemory: Process Virtual Memory: 195.04 MB used, 195.04 MB peak
-[2016.09.04-17.50.24:472][  0]LogMemory: Physical Memory: 3562.13 MB used, 8174.11 MB total
-[2016.09.04-17.50.24:472][  0]LogMemory: Virtual Memory: 552.21 MB used, 134217728.00 MB total
-[2016.09.04-17.50.24:500][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.09.04-17.50.24:974][  0]LogD3D11RHI: D3D11 adapters:
-[2016.09.04-17.50.24:989][  0]LogD3D11RHI:    0. 'AMD Radeon HD 7700 Series' (Feature Level 11_0)
-[2016.09.04-17.50.24:989][  0]LogD3D11RHI:       1006/0/4087 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
-[2016.09.04-17.50.24:991][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.09.04-17.50.24:991][  0]LogD3D11RHI:       0/0/4087 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2016.09.04-17.50.24:991][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.09.04-17.50.24:997][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.09.04-17.50.24:997][  0]LogD3D11RHI:     GPU DeviceId: 0x6837 (for the marketing name, search the web for "GPU Device Id")
-[2016.09.04-17.50.24:997][  0]LogWindows: EnumDisplayDevices:
-[2016.09.04-17.50.24:998][  0]LogWindows:    0. 'AMD Radeon HD 7700 Series' (P:0 D:1)
-[2016.09.04-17.50.24:998][  0]LogWindows:    1. 'AMD Radeon HD 7700 Series' (P:1 D:1)
-[2016.09.04-17.50.24:999][  0]LogWindows:    2. 'AMD Radeon HD 7700 Series' (P:0 D:0)
-[2016.09.04-17.50.24:999][  0]LogWindows:    3. 'AMD Radeon HD 7700 Series' (P:0 D:0)
-[2016.09.04-17.50.24:999][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2016.09.04-17.50.24:999][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 7700 Series
-[2016.09.04-17.50.24:999][  0]LogD3D11RHI:   Driver Version: Crimson 15.11 (internal:15.300.1025.1001, unified:15.300.1025.1001)
-[2016.09.04-17.50.24:999][  0]LogD3D11RHI:      Driver Date: 11-29-2015
-[2016.09.04-17.50.24:999][  0]LogRHI: Texture pool is 704 MB (70% of 1006 MB)
-[2016.09.04-17.50.25:008][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2016.09.04-17.50.25:022][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2016.09.04-17.50.25:023][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/kamer/Documents/Unreal Projects/NewTestProject/Intermediate/Shaders/WorkingDirectory/6940/).
-[2016.09.04-17.50.25:023][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kamer/AppData/Local/Temp/UnrealShaderWorkingDir/91D8D1684C9153ED5CC80C8529B99C26/'.
-[2016.09.04-17.50.25:023][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.09.04-17.50.26:290][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.09.04-17.50.26:302][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.09.04-17.50.26:316][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.09.04-17.50.26:328][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.09.04-17.50.26:341][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.09.04-17.50.26:351][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.09.04-17.50.26:363][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.09.04-17.50.26:374][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.09.04-17.50.26:386][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.09.04-17.50.26:397][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.09.04-17.50.26:408][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.09.04-17.50.26:429][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.09.04-17.50.26:429][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.09.04-17.50.26:430][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.09.04-17.50.26:456][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.09.04-17.50.26:467][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.09.04-17.50.26:477][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.09.04-17.50.26:488][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.09.04-17.50.26:499][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.09.04-17.50.26:499][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.09.04-17.50.26:599][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.09.04-17.50.26:688][  0]LogDerivedDataCache: Loaded boot cache 0.09s 48MB C:/Users/kamer/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.09.04-17.50.26:689][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/kamer/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
-[2016.09.04-17.50.26:689][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kamer/Documents/Unreal Projects/NewTestProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.09.04-17.50.26:689][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.09.04-17.50.26:689][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kamer/Documents/Unreal Projects/NewTestProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.09.04-17.50.26:689][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.09.04-17.50.26:712][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.09.04-17.50.26:725][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kamer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.09.04-17.50.26:974][  0]LogInit: Selected Device Profile: [Windows]
-[2016.09.04-17.50.26:975][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.09.04-17.50.27:174][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.09.04-17.50.27:174][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.09.04-17.50.27:174][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.09.04-17.50.27:519][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
-[2016.09.04-17.50.27:561][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.036434 seconds
-[2016.09.04-17.50.27:570][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
-[2016.09.04-17.50.27:570][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
-[2016.09.04-17.50.27:570][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.09.04-17.50.27:583][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.09.04-17.50.27:812][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.09.04-17.50.27:812][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.09.04-17.50.28:618][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.09.04-17.50.28:885][  0]SourceControl: Info Source control is disabled
-[2016.09.04-17.50.28:886][  0]SourceControl: Info Source control is disabled
-[2016.09.04-17.50.28:899][  0]SourceControl: Info Source control is disabled
-[2016.09.04-17.50.28:912][  0]SourceControl: Info Source control is disabled
-[2016.09.04-17.50.29:212][  0]LogEngine: Initializing Engine...
-[2016.09.04-17.50.29:223][  0]LogHMD: SteamVR failed to initialize.  Err: 126
-[2016.09.04-17.50.29:230][  0]LogHMD: SteamVR failed to initialize.  Err: 126
-[2016.09.04-17.50.29:410][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.09.04-17.50.29:419][  0]LogInit: XAudio2 using 'Headphones (Avantree Audition Pro Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.09.04-17.50.29:430][  0]LogInit: FAudioDevice initialized.
-[2016.09.04-17.50.29:480][  0]LogDerivedDataCache: Saved boot cache 0.05s 48MB C:/Users/kamer/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2016.09.04-17.50.29:498][  0]LogInit: Texture streaming: Enabled
-[2016.09.04-17.50.29:528][  0]LogInit: Transaction tracking system initialized
-[2016.09.04-17.50.29:557][  0]BlueprintLog: New page: Editor Load
-[2016.09.04-17.50.29:650][  0]LocalizationService: Info Localization service is disabled
-[2016.09.04-17.50.29:728][  0]LogConsoleResponse:Display: 
-[2016.09.04-17.50.29:853][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.09.04-17.50.29:853][  0]LogCook:Display: Mobile HDR setting 1
-[2016.09.04-17.50.29:998][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kamer/Documents/Unreal Projects/NewTestProject/Content/' took 0.02s
-[2016.09.04-17.50.29:998][  0]SourceControl: Info Source control is disabled
-[2016.09.04-17.50.29:998][  0]Cmd: MAP LOAD FILE="../../../../../../Users/kamer/Documents/Unreal Projects/NewTestProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.09.04-17.50.29:999][  0]LightingResults: New page: Lighting Build
-[2016.09.04-17.50.30:003][  0]MapCheck: New page: Map Check
-[2016.09.04-17.50.30:003][  0]LightingResults: New page: Lighting Build
-[2016.09.04-17.50.30:663][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2016.09.04-17.50.30:721][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.09.04-17.50.30:722][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.09.04-17.50.30:799][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 76.698ms to complete.
-[2016.09.04-17.50.30:799][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.801
-[2016.09.04-17.50.31:021][  0]LogCollectionManager: Loaded 0 collections in 0.003452 seconds
-[2016.09.04-17.50.31:068][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kamer/Documents/Unreal Projects/NewTestProject/Saved/Collections/' took 0.01s
-[2016.09.04-17.50.31:068][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kamer/Documents/Unreal Projects/NewTestProject/Content/Developers/kamer/Collections/' took 0.01s
-[2016.09.04-17.50.31:068][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kamer/Documents/Unreal Projects/NewTestProject/Content/Collections/' took 0.01s
-[2016.09.04-17.50.31:068][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
-[2016.09.04-17.50.31:083][  0]LogContentBrowser: Native class hierarchy populated in 0.0153 seconds. Added 2047 classes and 369 folders.
-[2016.09.04-17.50.31:088][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.09.04-17.50.31:088][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.09.04-17.50.31:089][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 12 classes and 0 folders.
-[2016.09.04-17.50.31:096][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2016.09.04-17.50.31:159][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2016.09.04-17.50.31:164][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2016.09.04-17.50.31:235][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.09.04-17.50.31:240][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.09.04-17.50.31:267][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2016.09.04-17.50.31:268][  0]LogLoad: Full Startup: 7.75 seconds (BP compile: 0.12 seconds)
-[2016.09.04-17.50.31:268][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2016.09.04-17.50.31:277][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.09.04-17.50.31:277][  0]LogOcInput: OculusInput pre-init called
-[2016.09.04-17.50.31:297][  0]LogContentStreaming: Texture pool size now 400 MB
-[2016.09.04-17.50.31:472][  0]LogRenderer: Reallocating scene render targets to support 848x404 (Frame:2).
-[2016.09.04-17.50.31:631][  1]Cmd: UpdateLandscapeEditorData -warnings
-[2016.09.04-17.50.31:744][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
-[2016.09.04-17.50.31:907][  2]LogAssetRegistry: Asset discovery search completed in 4.4101 seconds
-[2016.09.04-17.50.31:907][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.09.04-17.50.31:907][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000030 seconds (updated 0 objects)
-[2016.09.04-17.50.34:135][226]LogRenderer: Reallocating scene render targets to support 1208x600 (Frame:11).
-[2016.09.04-17.50.56:371][577]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.09.04-17.50.56:563][578]Cmd: QUIT_EDITOR
-[2016.09.04-17.50.56:632][578]LogExit: Preparing to exit.
-[2016.09.04-17.50.57:811][578]LogExit: Editor shut down
-[2016.09.04-17.50.57:812][578]LogExit: Transaction tracking system shut down
-[2016.09.04-17.50.57:958][578]LogObj: Freed 0b from 0 cluster array pools.
-[2016.09.04-17.50.57:958][578]LogExit: Object subsystem successfully closed.
-[2016.09.04-17.50.57:981][578]LogD3D11RHI: Shutdown
-[2016.09.04-17.50.57:981][578]LogD3D11RHI: CleanupD3DDevice
-[2016.09.04-17.50.58:102][578]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.09.04-17.50.58:122][578]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (214)
-[2016.09.04-17.50.58:122][578]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
-[2016.09.04-17.50.58:122][578]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
-[2016.09.04-17.50.58:122][578]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
-[2016.09.04-17.50.58:122][578]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
-[2016.09.04-17.50.58:122][578]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
-[2016.09.04-17.50.58:123][578]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
-[2016.09.04-17.50.58:123][578]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
-[2016.09.04-17.50.58:123][578]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
-[2016.09.04-17.50.58:124][578]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
-[2016.09.04-17.50.58:124][578]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
-[2016.09.04-17.50.58:124][578]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
-[2016.09.04-17.50.58:124][578]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
-[2016.09.04-17.50.58:124][578]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
-[2016.09.04-17.50.58:124][578]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
-[2016.09.04-17.50.58:124][578]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
-[2016.09.04-17.50.58:124][578]LogModuleManager: Shutting down and abandoning module BspMode (198)
-[2016.09.04-17.50.58:124][578]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
-[2016.09.04-17.50.58:124][578]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
-[2016.09.04-17.50.58:124][578]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
-[2016.09.04-17.50.58:124][578]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
-[2016.09.04-17.50.58:124][578]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
-[2016.09.04-17.50.58:124][578]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
-[2016.09.04-17.50.58:124][578]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
-[2016.09.04-17.50.58:124][578]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
-[2016.09.04-17.50.58:124][578]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
-[2016.09.04-17.50.58:124][578]LogModuleManager: Shutting down and abandoning module SessionServices (188)
-[2016.09.04-17.50.58:124][578]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
-[2016.09.04-17.50.58:124][578]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
-[2016.09.04-17.50.58:125][578]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
-[2016.09.04-17.50.58:125][578]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
-[2016.09.04-17.50.58:125][578]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
-[2016.09.04-17.50.58:125][578]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
-[2016.09.04-17.50.58:125][578]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
-[2016.09.04-17.50.58:125][578]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
-[2016.09.04-17.50.58:709][578]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
-[2016.09.04-17.50.58:709][578]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
-[2016.09.04-17.50.58:709][578]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
-[2016.09.04-17.50.58:709][578]LogModuleManager: Shutting down and abandoning module MergeActors (176)
-[2016.09.04-17.50.58:710][578]LogModuleManager: Shutting down and abandoning module SizeMap (175)
-[2016.09.04-17.50.58:710][578]LogModuleManager: Shutting down and abandoning module TreeMap (174)
-[2016.09.04-17.50.58:710][578]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
-[2016.09.04-17.50.58:710][578]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
-[2016.09.04-17.50.58:710][578]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
-[2016.09.04-17.50.58:710][578]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
-[2016.09.04-17.50.58:710][578]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
-[2016.09.04-17.50.58:710][578]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
-[2016.09.04-17.50.58:710][578]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
-[2016.09.04-17.50.58:710][578]LogModuleManager: Shutting down and abandoning module XmlParser (166)
-[2016.09.04-17.50.58:710][578]LogModuleManager: Shutting down and abandoning module Blutility (165)
-[2016.09.04-17.50.58:710][578]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
-[2016.09.04-17.50.58:710][578]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
-[2016.09.04-17.50.58:711][578]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
-[2016.09.04-17.50.58:711][578]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
-[2016.09.04-17.50.58:711][578]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
-[2016.09.04-17.50.58:711][578]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
-[2016.09.04-17.50.58:711][578]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
-[2016.09.04-17.50.58:711][578]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
-[2016.09.04-17.50.58:711][578]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
-[2016.09.04-17.50.58:712][578]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module AutomationController (154)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module Layers (152)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module Persona (148)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module Kismet (147)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module Toolbox (144)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module OutputLog (141)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module GammaUI (140)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module Documentation (139)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module Analytics (136)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module PortalServices (135)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
-[2016.09.04-17.50.58:775][578]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
-[2016.09.04-17.50.58:776][578]LogModuleManager: Shutting down and abandoning module AIModule (130)
-[2016.09.04-17.50.58:776][578]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
-[2016.09.04-17.50.58:944][578]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
-[2016.09.04-17.50.58:944][578]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
-[2016.09.04-17.50.58:944][578]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
-[2016.09.04-17.50.58:944][578]LogModuleManager: Shutting down and abandoning module SteamVR (125)
-[2016.09.04-17.50.58:944][578]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
-[2016.09.04-17.50.58:944][578]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
-[2016.09.04-17.50.58:944][578]LogModuleManager: Shutting down and abandoning module OculusInput (122)
-[2016.09.04-17.50.58:944][578]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
-[2016.09.04-17.50.58:944][578]LogModuleManager: Shutting down and abandoning module CableComponent (120)
-[2016.09.04-17.50.58:944][578]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
-[2016.09.04-17.50.58:944][578]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
-[2016.09.04-17.50.58:944][578]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
-[2016.09.04-17.50.58:945][578]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
-[2016.09.04-17.50.58:945][578]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
-[2016.09.04-17.50.58:945][578]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
-[2016.09.04-17.50.58:945][578]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
-[2016.09.04-17.50.58:945][578]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
-[2016.09.04-17.50.58:945][578]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
-[2016.09.04-17.50.58:945][578]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
-[2016.09.04-17.50.58:945][578]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
-[2016.09.04-17.50.58:945][578]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
-[2016.09.04-17.50.58:945][578]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
-[2016.09.04-17.50.58:945][578]LogModuleManager: Shutting down and abandoning module SourceControl (106)
-[2016.09.04-17.50.58:945][578]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
-[2016.09.04-17.50.58:945][578]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
-[2016.09.04-17.50.58:945][578]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
-[2016.09.04-17.50.58:945][578]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
-[2016.09.04-17.50.58:945][578]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
-[2016.09.04-17.50.58:945][578]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
-[2016.09.04-17.50.58:945][578]LogModuleManager: Shutting down and abandoning module HotReload (99)
-[2016.09.04-17.50.58:946][578]LogModuleManager: Shutting down and abandoning module MainFrame (98)
-[2016.09.04-17.50.58:946][578]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
-[2016.09.04-17.50.58:947][578]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
-[2016.09.04-17.50.58:948][578]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
-[2016.09.04-17.50.58:948][578]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
-[2016.09.04-17.50.59:048][578]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
-[2016.09.04-17.50.59:048][578]LogModuleManager: Shutting down and abandoning module Paper2D (92)
-[2016.09.04-17.50.59:048][578]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
-[2016.09.04-17.50.59:048][578]LogModuleManager: Shutting down and abandoning module Media (90)
-[2016.09.04-17.50.59:048][578]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
-[2016.09.04-17.50.59:049][578]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
-[2016.09.04-17.50.59:049][578]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
-[2016.09.04-17.50.59:049][578]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
-[2016.09.04-17.50.59:049][578]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
-[2016.09.04-17.50.59:049][578]LogModuleManager: Shutting down and abandoning module VREditor (84)
-[2016.09.04-17.50.59:049][578]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
-[2016.09.04-17.50.59:049][578]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
-[2016.09.04-17.50.59:049][578]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
-[2016.09.04-17.50.59:049][578]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
-[2016.09.04-17.50.59:049][578]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
-[2016.09.04-17.50.59:049][578]LogModuleManager: Shutting down and abandoning module Sequencer (78)
-[2016.09.04-17.50.59:049][578]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
-[2016.09.04-17.50.59:049][578]LogModuleManager: Shutting down and abandoning module MessageLog (76)
-[2016.09.04-17.50.59:049][578]LogModuleManager: Shutting down and abandoning module AssetTools (75)
-[2016.09.04-17.50.59:049][578]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
-[2016.09.04-17.50.59:049][578]LogModuleManager: Shutting down and abandoning module UMG (73)
-[2016.09.04-17.50.59:049][578]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
-[2016.09.04-17.50.59:049][578]LogModuleManager: Shutting down and abandoning module Slate (71)
-[2016.09.04-17.50.59:049][578]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
-[2016.09.04-17.50.59:054][578]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
-[2016.09.04-17.50.59:054][578]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
-[2016.09.04-17.50.59:054][578]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
-[2016.09.04-17.50.59:054][578]LogModuleManager: Shutting down and abandoning module Networking (65)
-[2016.09.04-17.50.59:054][578]LogModuleManager: Shutting down and abandoning module Core (64)
-[2016.09.04-17.50.59:054][578]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
-[2016.09.04-17.50.59:056][578]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
-[2016.09.04-17.50.59:247][578]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
-[2016.09.04-17.50.59:247][578]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
-[2016.09.04-17.50.59:247][578]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
-[2016.09.04-17.50.59:247][578]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
-[2016.09.04-17.50.59:249][578]LogDerivedDataCache: Shutdown
-[2016.09.04-17.50.59:249][578]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2016.09.04-17.50.59:250][578]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2016.09.04-17.51.03:763][578]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2016.09.04-17.51.03:763][578]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2016.09.04-17.51.03:763][578]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.09.04-17.51.03:763][578]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.09.04-17.51.03:763][578]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.09.04-17.51.03:763][578]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.09.04-17.51.03:763][578]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.09.04-17.51.03:765][578]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.09.04-17.51.03:765][578]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.09.04-17.51.03:765][578]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.09.04-17.51.03:765][578]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.09.04-17.51.03:765][578]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.09.04-17.51.03:765][578]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.09.04-17.51.03:765][578]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.09.04-17.51.03:765][578]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.09.04-17.51.03:765][578]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.09.04-17.51.03:765][578]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.09.04-17.51.03:766][578]LogExit: Exiting.
-[2016.09.04-17.51.03:770][578]Log file closed, 09/04/16 13:51:03
+[2016.09.04-19.09.12:055][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.04-19.09.12:055][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.09.04-19.09.12:073][  0]LogInit: Computer: DESKTOP-C0NVLFH
+[2016.09.04-19.09.12:073][  0]LogInit: User: kamer
+[2016.09.04-19.09.12:073][  0]LogInit: CPU Page size=65536, Cores=3
+[2016.09.04-19.09.12:073][  0]LogInit: High frequency timer resolution =3.433386 MHz
+[2016.09.04-19.09.12:074][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.09.04-19.09.12:074][  0]LogMemory: Platform Memory Stats for Windows
+[2016.09.04-19.09.12:074][  0]LogMemory: Process Physical Memory: 190.07 MB used, 190.07 MB peak
+[2016.09.04-19.09.12:074][  0]LogMemory: Process Virtual Memory: 195.02 MB used, 195.02 MB peak
+[2016.09.04-19.09.12:074][  0]LogMemory: Physical Memory: 3781.61 MB used, 8174.11 MB total
+[2016.09.04-19.09.12:074][  0]LogMemory: Virtual Memory: 552.21 MB used, 134217728.00 MB total
+[2016.09.04-19.09.12:103][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.09.04-19.09.12:586][  0]LogD3D11RHI: D3D11 adapters:
+[2016.09.04-19.09.12:637][  0]LogD3D11RHI:    0. 'AMD Radeon HD 7700 Series' (Feature Level 11_0)
+[2016.09.04-19.09.12:637][  0]LogD3D11RHI:       1006/0/4087 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2016.09.04-19.09.12:640][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.09.04-19.09.12:640][  0]LogD3D11RHI:       0/0/4087 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.09.04-19.09.12:640][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.09.04-19.09.12:646][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.09.04-19.09.12:647][  0]LogD3D11RHI:     GPU DeviceId: 0x6837 (for the marketing name, search the web for "GPU Device Id")
+[2016.09.04-19.09.12:647][  0]LogWindows: EnumDisplayDevices:
+[2016.09.04-19.09.12:647][  0]LogWindows:    0. 'AMD Radeon HD 7700 Series' (P:0 D:1)
+[2016.09.04-19.09.12:647][  0]LogWindows:    1. 'AMD Radeon HD 7700 Series' (P:1 D:1)
+[2016.09.04-19.09.12:648][  0]LogWindows:    2. 'AMD Radeon HD 7700 Series' (P:0 D:0)
+[2016.09.04-19.09.12:648][  0]LogWindows:    3. 'AMD Radeon HD 7700 Series' (P:0 D:0)
+[2016.09.04-19.09.12:649][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.09.04-19.09.12:649][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 7700 Series
+[2016.09.04-19.09.12:649][  0]LogD3D11RHI:   Driver Version: Crimson 15.11 (internal:15.300.1025.1001, unified:15.300.1025.1001)
+[2016.09.04-19.09.12:649][  0]LogD3D11RHI:      Driver Date: 11-29-2015
+[2016.09.04-19.09.12:649][  0]LogRHI: Texture pool is 704 MB (70% of 1006 MB)
+[2016.09.04-19.09.12:658][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2016.09.04-19.09.12:673][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2016.09.04-19.09.12:675][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/kamer/Documents/Unreal Projects/NewTestProject/Intermediate/Shaders/WorkingDirectory/8732/).
+[2016.09.04-19.09.12:675][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kamer/AppData/Local/Temp/UnrealShaderWorkingDir/F0740A85438126D6F6E706B521A93F22/'.
+[2016.09.04-19.09.12:675][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.09.04-19.09.13:927][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.09.04-19.09.13:940][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.09.04-19.09.13:953][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.09.04-19.09.13:966][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.09.04-19.09.13:979][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.09.04-19.09.13:989][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.09.04-19.09.14:000][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.09.04-19.09.14:011][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.09.04-19.09.14:025][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.09.04-19.09.14:045][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.09.04-19.09.14:055][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.09.04-19.09.14:077][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.09.04-19.09.14:077][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.09.04-19.09.14:078][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.09.04-19.09.14:104][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.09.04-19.09.14:115][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.09.04-19.09.14:125][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.09.04-19.09.14:144][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.09.04-19.09.14:155][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.09.04-19.09.14:155][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.09.04-19.09.14:264][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.09.04-19.09.14:357][  0]LogDerivedDataCache: Loaded boot cache 0.09s 48MB C:/Users/kamer/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.09.04-19.09.14:357][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/kamer/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.09.04-19.09.14:357][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/kamer/Documents/Unreal Projects/NewTestProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.09.04-19.09.14:357][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.09.04-19.09.14:358][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/kamer/Documents/Unreal Projects/NewTestProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.09.04-19.09.14:358][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.09.04-19.09.14:382][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.09.04-19.09.14:395][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kamer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.09.04-19.09.14:650][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.04-19.09.14:651][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.09.04-19.09.14:847][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.09.04-19.09.14:847][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.09.04-19.09.14:847][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.09.04-19.09.15:191][  0]LogAssetRegistry: FAssetRegistry took 0.0216 seconds to start up
+[2016.09.04-19.09.15:234][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.038411 seconds
+[2016.09.04-19.09.15:245][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.09.04-19.09.15:245][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2016.09.04-19.09.15:245][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.09.04-19.09.15:258][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.09.04-19.09.15:487][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.04-19.09.15:487][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.04-19.09.16:252][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.09.04-19.09.16:543][  0]SourceControl: Info Source control is disabled
+[2016.09.04-19.09.16:544][  0]SourceControl: Info Source control is disabled
+[2016.09.04-19.09.16:556][  0]SourceControl: Info Source control is disabled
+[2016.09.04-19.09.16:567][  0]SourceControl: Info Source control is disabled
+[2016.09.04-19.09.16:845][  0]LogEngine: Initializing Engine...
+[2016.09.04-19.09.16:856][  0]LogHMD: SteamVR failed to initialize.  Err: 126
+[2016.09.04-19.09.16:864][  0]LogHMD: SteamVR failed to initialize.  Err: 126
+[2016.09.04-19.09.17:037][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.09.04-19.09.17:043][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.04-19.09.17:057][  0]LogInit: FAudioDevice initialized.
+[2016.09.04-19.09.17:101][  0]LogDerivedDataCache: Saved boot cache 0.04s 48MB C:/Users/kamer/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.09.04-19.09.17:116][  0]LogInit: Texture streaming: Enabled
+[2016.09.04-19.09.17:146][  0]LogInit: Transaction tracking system initialized
+[2016.09.04-19.09.17:177][  0]BlueprintLog: New page: Editor Load
+[2016.09.04-19.09.17:272][  0]LocalizationService: Info Localization service is disabled
+[2016.09.04-19.09.17:345][  0]LogConsoleResponse:Display: 
+[2016.09.04-19.09.17:474][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.09.04-19.09.17:474][  0]LogCook:Display: Mobile HDR setting 1
+[2016.09.04-19.09.17:615][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kamer/Documents/Unreal Projects/NewTestProject/Content/' took 0.02s
+[2016.09.04-19.09.17:615][  0]SourceControl: Info Source control is disabled
+[2016.09.04-19.09.17:615][  0]Cmd: MAP LOAD FILE="../../../../../../Users/kamer/Documents/Unreal Projects/NewTestProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.09.04-19.09.17:616][  0]LightingResults: New page: Lighting Build
+[2016.09.04-19.09.17:620][  0]MapCheck: New page: Map Check
+[2016.09.04-19.09.17:620][  0]LightingResults: New page: Lighting Build
+[2016.09.04-19.09.18:255][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.09.04-19.09.18:310][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.09.04-19.09.18:311][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.09.04-19.09.18:389][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.174ms to complete.
+[2016.09.04-19.09.18:389][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.774
+[2016.09.04-19.09.18:615][  0]LogCollectionManager: Loaded 0 collections in 0.002425 seconds
+[2016.09.04-19.09.18:664][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kamer/Documents/Unreal Projects/NewTestProject/Saved/Collections/' took 0.01s
+[2016.09.04-19.09.18:664][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kamer/Documents/Unreal Projects/NewTestProject/Content/Developers/kamer/Collections/' took 0.01s
+[2016.09.04-19.09.18:664][  0]LogFileCache: Scanning file cache for directory 'C:/Users/kamer/Documents/Unreal Projects/NewTestProject/Content/Collections/' took 0.01s
+[2016.09.04-19.09.18:664][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2016.09.04-19.09.18:677][  0]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 2047 classes and 369 folders.
+[2016.09.04-19.09.18:683][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.09.04-19.09.18:683][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.09.04-19.09.18:684][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 12 classes and 0 folders.
+[2016.09.04-19.09.18:691][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.09.04-19.09.18:749][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.09.04-19.09.18:754][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.09.04-19.09.18:821][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.09.04-19.09.18:825][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.09.04-19.09.18:853][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.09.04-19.09.18:854][  0]LogLoad: Full Startup: 7.79 seconds (BP compile: 0.10 seconds)
+[2016.09.04-19.09.18:854][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2016.09.04-19.09.19:193][  0]LogOcInput: OculusInput pre-init called
+[2016.09.04-19.09.19:221][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.09.04-19.09.19:388][  0]LogRenderer: Reallocating scene render targets to support 852x412 (Frame:2).
+[2016.09.04-19.09.19:542][  1]Cmd: UpdateLandscapeEditorData -warnings
+[2016.09.04-19.09.19:897][  2]LogAssetRegistry: Asset discovery search completed in 4.7283 seconds
+[2016.09.04-19.09.19:898][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.09.04-19.09.19:898][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2016.09.04-19.09.22:869][115]LogRenderer: Reallocating scene render targets to support 1208x600 (Frame:7).
+[2016.09.04-19.10.09:030][959]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0005 seconds. Added 2 classes and 2 folders.
+[2016.09.04-19.10.09:125][959]LogTexture:Display: Building textures: OrientParticle (AutoDXT)
+[2016.09.04-19.10.09:243][959]LogTexture:Display: Building textures: CASC_Normal (BC5)
+[2016.09.04-19.10.09:276][959]LogTexture:Display: Building textures: CASC_Point (AutoDXT)
+[2016.09.04-19.10.09:293][959]LogTexture:Display: Building textures: CASC_Lights (BC5)
+[2016.09.04-19.10.09:319][959]LogTexture:Display: Building textures: CASC_CurveEd (AutoDXT)
+[2016.09.04-19.10.09:338][959]LogTexture:Display: Building textures: CASC_ModuleEnable (AutoDXT)
+[2016.09.04-19.10.09:347][959]LogTexture:Display: Building textures: CASC_ModuleDisable (AutoDXT)
+[2016.09.04-19.10.09:402][959]LogTexture:Display: Building textures: CASC_Solo_On (AutoDXT)
+[2016.09.04-19.10.09:408][959]LogTexture:Display: Building textures: CASC_Solo_Off (AutoDXT)
+[2016.09.04-19.10.09:413][959]LogTexture:Display: Building textures: CASC_DisabledModule (AutoDXT)
+[2016.09.04-19.10.42:365][ 97]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2016.09.04-19.10.43:529][184]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Test)
+[2016.09.04-19.10.45:904][280]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.10.45:904][280]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.04-19.10.45:905][280]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 4, 2016, 10:10:45 AM)
+[2016.09.04-19.10.45:905][280]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.09.04-19.10.45:962][280]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056547s)
+[2016.09.04-19.10.45:963][280]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.09.04-19.10.45:964][280]LogPlayLevel: PIE: World Init took: (0.001644s)
+[2016.09.04-19.10.45:964][280]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.059034s)
+[2016.09.04-19.10.46:009][280]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.04-19.10.46:022][280]LogInit: FAudioDevice initialized.
+[2016.09.04-19.10.46:100][280]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.04-19.10.46:115][280]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.09.04-15.10.46
+[2016.09.04-19.10.46:127][280]LogWorld: Bringing up level for play took: 0.026244
+[2016.09.04-19.10.46:132][280]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2016.09.04-19.10.46:133][280]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.069
+[2016.09.04-19.10.46:133][280]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.10.48:685][401]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.10.48:744][401]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.16.12:404][695]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.16.12:404][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.04-19.16.12:404][695]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 4, 2016, 10:16:12 AM)
+[2016.09.04-19.16.12:404][695]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.09.04-19.16.12:462][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058624s)
+[2016.09.04-19.16.12:464][695]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.09.04-19.16.12:465][695]LogPlayLevel: PIE: World Init took: (0.002078s)
+[2016.09.04-19.16.12:465][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.061163s)
+[2016.09.04-19.16.12:492][695]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.04-19.16.12:504][695]LogInit: FAudioDevice initialized.
+[2016.09.04-19.16.12:564][695]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.04-19.16.12:579][695]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.09.04-15.16.12
+[2016.09.04-19.16.12:580][695]LogWorld: Bringing up level for play took: 0.014795
+[2016.09.04-19.16.12:581][695]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.482
+[2016.09.04-19.16.12:581][695]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.16.15:409][828]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.16.15:469][828]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.16.37:816][189]LogParticles:Warning: MaxCount =  521 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.16.37:818][189]LogParticles:Warning: MaxCount =  611 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.16.37:850][190]LogParticles:Warning: MaxCount =  729 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.16.37:852][190]LogParticles:Warning: MaxCount =  876 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.16.37:853][190]LogParticles:Warning: MaxCount = 1069 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.16.37:854][190]LogParticles:Warning: MaxCount = 1294 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.16.37:855][190]LogParticles:Warning: MaxCount = 1555 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.16.37:892][191]LogParticles:Warning: MaxCount = 1896 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.16.37:894][191]LogParticles:Warning: MaxCount = 2228 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.16.37:895][191]LogParticles:Warning: MaxCount = 2554 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.16.37:896][191]LogParticles:Warning: MaxCount = 2928 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.16.37:898][191]LogParticles:Warning: MaxCount = 3305 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.16.37:931][192]LogParticles:Warning: MaxCount = 3638 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.16.37:932][192]LogParticles:Warning: MaxCount = 3972 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.16.37:933][192]LogParticles:Warning: MaxCount = 4300 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.16.37:935][192]LogParticles:Warning: MaxCount = 4615 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.16.37:936][192]LogParticles:Warning: MaxCount = 4868 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.16.37:970][193]LogParticles:Warning: MaxCount = 5092 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.16.37:972][193]LogParticles:Warning: MaxCount = 5372 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.16.37:973][193]LogParticles:Warning: MaxCount = 5372 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.16.51:182][990]LogParticles:Warning: MaxCount = 5372 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.16.58:714][469]LogParticles:Warning: MaxCount = 5372 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.16.59:964][549]LogParticles:Warning: MaxCount = 5372 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.17.01:830][669]LogParticles:Warning: MaxCount = 5372 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.17.06:897][974]LogParticles:Warning: MaxCount = 5372 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.17.12:145][303]LogParticles:Warning: MaxCount = 5372 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.17.24:992][ 88]LogParticles:Warning: MaxCount = 5372 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.17.25:471][115]LogParticles:Warning: MaxCount = 5372 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.17.28:675][310]LogParticles:Warning: MaxCount = 5372 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.17.32:515][553]LogParticles:Warning: MaxCount = 5372 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.17.34:459][676]LogParticles:Warning: MaxCount = 5372 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.17.36:839][827]LogParticles:Warning: MaxCount = 5372 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.17.44:259][296]LogParticles:Warning: MaxCount = 5372 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.18.11:276][619]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.18.11:276][619]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.04-19.18.11:276][619]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 4, 2016, 10:18:11 AM)
+[2016.09.04-19.18.11:276][619]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.09.04-19.18.11:329][619]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052756s)
+[2016.09.04-19.18.11:330][619]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.09.04-19.18.11:330][619]LogPlayLevel: PIE: World Init took: (0.001253s)
+[2016.09.04-19.18.11:330][619]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.054325s)
+[2016.09.04-19.18.11:356][619]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.04-19.18.11:368][619]LogInit: FAudioDevice initialized.
+[2016.09.04-19.18.11:427][619]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.04-19.18.11:442][619]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.09.04-15.18.11
+[2016.09.04-19.18.11:444][619]LogWorld: Bringing up level for play took: 0.014392
+[2016.09.04-19.18.11:445][619]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.381
+[2016.09.04-19.18.11:445][619]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.18.15:632][813]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.18.15:691][813]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.18.39:932][ 99]LogParticles:Warning: MaxCount = 5372 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.18.40:724][144]LogParticles:Warning: MaxCount = 5372 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.18.41:961][215]LogParticles:Warning: MaxCount = 5372 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.18.43:314][296]LogParticles:Warning: MaxCount = 5372 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.18.44:165][347]LogParticles:Warning: MaxCount = 5372 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.18.45:183][406]LogParticles:Warning: MaxCount = 5372 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.18.55:260][999]LogParticles:Warning: MaxCount = 5372 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.19.06:841][697]LogParticles:Warning: MaxCount = 104267 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.20.31:905][521]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.20.31:905][521]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.04-19.20.31:905][521]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 4, 2016, 10:20:31 AM)
+[2016.09.04-19.20.31:905][521]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.09.04-19.20.31:957][521]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052003s)
+[2016.09.04-19.20.31:958][521]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.09.04-19.20.31:958][521]LogPlayLevel: PIE: World Init took: (0.001351s)
+[2016.09.04-19.20.31:959][521]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.053836s)
+[2016.09.04-19.20.31:986][521]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.04-19.20.31:998][521]LogInit: FAudioDevice initialized.
+[2016.09.04-19.20.32:057][521]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.04-19.20.32:073][521]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.09.04-15.20.32
+[2016.09.04-19.20.32:074][521]LogWorld: Bringing up level for play took: 0.015222
+[2016.09.04-19.20.32:075][521]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.011
+[2016.09.04-19.20.32:075][521]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.20.55:064][620]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.20.55:120][620]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.21.13:516][659]LogParticles:Warning: MaxCount = 104267 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.21.14:734][734]LogParticles:Warning: MaxCount = 104267 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.21.23:627][274]LogParticles:Warning: MaxCount = 104267 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.21.25:573][394]LogParticles:Warning: MaxCount = 104267 for Emitter ParticleSpriteEmitter_0 (/Game/StarterContent/Particles/P_Test.P_Test)
+[2016.09.04-19.21.30:640][698]LogSavePackage: Save=14.66ms
+[2016.09.04-19.21.30:640][698]LogSavePackage: Moving '../../../../../../Users/kamer/Documents/Unreal Projects/NewTestProject/Saved/P_TestDFB190B1459F5B726EACF4BBB79AEA6F.tmp' to '../../../../../../Users/kamer/Documents/Unreal Projects/NewTestProject/Content/StarterContent/Particles/P_Test.uasset'
+[2016.09.04-19.21.30:646][698]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kamer/Documents/Unreal Projects/NewTestProject/Content/StarterContent/Particles/P_Test.uasset
+[2016.09.04-19.21.33:651][931]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.21.33:652][931]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.04-19.21.33:652][931]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 4, 2016, 10:21:33 AM)
+[2016.09.04-19.21.33:652][931]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.09.04-19.21.33:704][931]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051890s)
+[2016.09.04-19.21.33:705][931]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.09.04-19.21.33:705][931]LogPlayLevel: PIE: World Init took: (0.001600s)
+[2016.09.04-19.21.33:706][931]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.053945s)
+[2016.09.04-19.21.33:730][931]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.04-19.21.33:742][931]LogInit: FAudioDevice initialized.
+[2016.09.04-19.21.33:798][931]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.04-19.21.33:813][931]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.09.04-15.21.33
+[2016.09.04-19.21.33:814][931]LogWorld: Bringing up level for play took: 0.014870
+[2016.09.04-19.21.33:815][931]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.751
+[2016.09.04-19.21.33:815][931]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.21.42:474][451]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.21.42:525][451]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.21.49:304][968]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.21.49:304][968]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.04-19.21.49:305][968]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 4, 2016, 10:21:49 AM)
+[2016.09.04-19.21.49:305][968]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.09.04-19.21.49:352][968]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047100s)
+[2016.09.04-19.21.49:353][968]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.09.04-19.21.49:353][968]LogPlayLevel: PIE: World Init took: (0.001462s)
+[2016.09.04-19.21.49:354][968]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.048919s)
+[2016.09.04-19.21.49:371][968]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.04-19.21.49:383][968]LogInit: FAudioDevice initialized.
+[2016.09.04-19.21.49:440][968]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.04-19.21.49:455][968]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.09.04-15.21.49
+[2016.09.04-19.21.49:456][968]LogWorld: Bringing up level for play took: 0.014824
+[2016.09.04-19.21.49:457][968]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.394
+[2016.09.04-19.21.49:457][968]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.22.10:218][229]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.22.10:272][229]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.22.12:013][414]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.09.04-19.22.21:521][388]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.09.04-19.22.28:234][ 36]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.09.04-19.22.35:933][647]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2016.09.04-19.22.36:066][647]LogTexture:Display: Building textures: Texture2D_2 (G8)
+[2016.09.04-19.22.51:705][428]LogMaterial: 0.00 seconds spent updating 1 materials, 5 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.51:720][428]LogMaterial: Missing cached shader map for material M_LayerBlendPractice, compiling. 
+[2016.09.04-19.22.51:933][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2016.09.04-19.22.51:962][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.51:976][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:010][428]LogMaterial: Missing cached shader map for material M_LayerBlendPractice, compiling. 
+[2016.09.04-19.22.52:069][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2016.09.04-19.22.52:074][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:075][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:080][428]LogMaterial: Missing cached shader map for material M_LayerBlendPractice, compiling. 
+[2016.09.04-19.22.52:153][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 1 with static permutations.
+[2016.09.04-19.22.52:160][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:160][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:161][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:161][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:161][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:162][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:162][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:163][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:163][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:164][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:164][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:165][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:165][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:166][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:166][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:167][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:167][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:168][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:168][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:169][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:169][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:170][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:170][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:171][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:171][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:172][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:172][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:173][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:173][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:174][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:174][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:175][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:175][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:176][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:176][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:177][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:177][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:178][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:178][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:179][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:179][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:180][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:180][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:181][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:181][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:181][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:182][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:182][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:182][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:183][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:183][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:183][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:184][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:184][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:184][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:185][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:185][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:186][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:186][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:186][428]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:203][429]Cmd: UpdateLandscapeEditorData
+[2016.09.04-19.22.52:215][429]Cmd: UpdateLandscapeMIC
+[2016.09.04-19.22.52:218][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:230][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:230][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:231][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:231][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:231][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:232][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:232][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:233][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:233][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:233][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:234][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:234][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:234][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:235][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:235][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:236][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:236][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:236][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:237][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:237][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:237][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:238][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:238][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:238][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:239][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:239][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:240][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:240][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:241][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:241][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:241][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:242][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:242][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:243][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:243][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:243][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:244][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:244][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:245][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:245][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:245][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:246][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:246][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:247][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:247][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:247][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:248][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:248][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:249][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:249][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:249][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:250][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:250][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:251][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:251][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:251][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:252][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:252][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:252][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:253][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:253][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:253][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.22.52:254][429]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.04-19.23.29:564][537]Cmd: TRANSACTION UNDO
+[2016.09.04-19.23.29:568][537]LogEditorTransaction: Undo Foliage Editing
+[2016.09.04-19.24.18:489][394]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.24.18:489][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.04-19.24.18:489][394]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 4, 2016, 10:24:18 AM)
+[2016.09.04-19.24.18:489][394]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.09.04-19.24.18:557][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.068191s)
+[2016.09.04-19.24.18:558][394]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.09.04-19.24.18:559][394]LogPlayLevel: PIE: World Init took: (0.001260s)
+[2016.09.04-19.24.18:559][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.069804s)
+[2016.09.04-19.24.18:579][394]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.04-19.24.18:592][394]LogInit: FAudioDevice initialized.
+[2016.09.04-19.24.18:665][394]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.04-19.24.18:680][394]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.09.04-15.24.18
+[2016.09.04-19.24.18:681][394]LogWorld: Bringing up level for play took: 0.014349
+[2016.09.04-19.24.18:682][394]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.381
+[2016.09.04-19.24.18:682][394]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.24.38:012][521]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.24.38:055][521]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.24.47:881][831]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0029 seconds. Added 111 classes and 0 folders.
+[2016.09.04-19.24.49:031][831]LogTexture:Display: Building textures: TilePatine_N (BC5)
+[2016.09.04-19.24.49:101][831]LogTexture:Display: Building textures: TilePatine_D (AutoDXT)
+[2016.09.04-19.24.51:523][871]LogRenderer: Reallocating scene render targets to support 1208x940 (Frame:31035).
+[2016.09.04-19.25.03:702][121]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2016.09.04-19.25.03:876][121]BlueprintEditorCompileResults: Info [0952.81] Compile of ThirdPersonCharacter successful! [in 173 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.09.04-19.25.04:606][133]LogSavePackage: Save=85.59ms
+[2016.09.04-19.25.04:606][133]LogSavePackage: Moving '../../../../../../Users/kamer/Documents/Unreal Projects/NewTestProject/Saved/ThirdPersonCharacter5C3BC1CB40922F05E2E0979906179D75.tmp' to '../../../../../../Users/kamer/Documents/Unreal Projects/NewTestProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2016.09.04-19.25.04:610][133]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kamer/Documents/Unreal Projects/NewTestProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2016.09.04-19.25.05:788][158]LogCascade: Quitting Cascade. FXSystem=0x000002AEDECAFF60
+[2016.09.04-19.25.07:320][208]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.25.07:320][208]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.04-19.25.07:320][208]PIE: New page: PIE session: ThirdPersonExampleMap (Sep 4, 2016, 10:25:07 AM)
+[2016.09.04-19.25.07:320][208]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.09.04-19.25.07:363][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042539s)
+[2016.09.04-19.25.07:364][208]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.09.04-19.25.07:364][208]LogPlayLevel: PIE: World Init took: (0.001298s)
+[2016.09.04-19.25.07:364][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.044135s)
+[2016.09.04-19.25.07:400][208]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.04-19.25.07:412][208]LogInit: FAudioDevice initialized.
+[2016.09.04-19.25.07:478][208]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.09.04-19.25.07:493][208]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.09.04-15.25.07
+[2016.09.04-19.25.07:494][208]LogWorld: Bringing up level for play took: 0.015169
+[2016.09.04-19.25.07:495][208]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.432
+[2016.09.04-19.25.07:495][208]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.25.46:074][588]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.25.46:117][588]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.09.04-19.26.12:648][454]LogSavePackage: Save=630.55ms
+[2016.09.04-19.26.12:648][454]LogSavePackage: Moving '../../../../../../Users/kamer/Documents/Unreal Projects/NewTestProject/Saved/ThirdPersonExampleMap87A01BF34F8F739B7BE51CB8192607D5.tmp' to '../../../../../../Users/kamer/Documents/Unreal Projects/NewTestProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.09.04-19.26.12:655][454]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kamer/Documents/Unreal Projects/NewTestProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2016.09.04-19.26.12:712][454]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.865
+[2016.09.04-19.26.12:737][454]LogSavePackage: Save=10.27ms
+[2016.09.04-19.26.12:737][454]LogSavePackage: Moving '../../../../../../Users/kamer/Documents/Unreal Projects/NewTestProject/Saved/P_TestAEE24E6B483063775DF99B8DAB5F5AE3.tmp' to '../../../../../../Users/kamer/Documents/Unreal Projects/NewTestProject/Content/StarterContent/Particles/P_Test.uasset'
+[2016.09.04-19.26.12:741][454]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/kamer/Documents/Unreal Projects/NewTestProject/Content/StarterContent/Particles/P_Test.uasset
+[2016.09.04-19.26.15:390][555]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.09.04-19.26.15:603][556]Cmd: QUIT_EDITOR
+[2016.09.04-19.26.15:608][556]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2016.09.04-19.26.16:690][556]LogExit: Preparing to exit.
+[2016.09.04-19.26.17:831][556]LogExit: Editor shut down
+[2016.09.04-19.26.17:832][556]LogExit: Transaction tracking system shut down
+[2016.09.04-19.26.18:058][556]LogObj: Freed 0b from 0 cluster array pools.
+[2016.09.04-19.26.18:058][556]LogExit: Object subsystem successfully closed.
+[2016.09.04-19.26.18:084][556]LogD3D11RHI: Shutdown
+[2016.09.04-19.26.18:084][556]LogD3D11RHI: CleanupD3DDevice
+[2016.09.04-19.26.18:309][556]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.09.04-19.26.18:329][556]LogModuleManager: Shutting down and abandoning module BlueprintGraph (217)
+[2016.09.04-19.26.18:329][556]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (216)
+[2016.09.04-19.26.18:329][556]LogModuleManager: Shutting down and abandoning module DistCurveEditor (215)
+[2016.09.04-19.26.18:329][556]LogModuleManager: Shutting down and abandoning module Cascade (214)
+[2016.09.04-19.26.18:329][556]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.09.04-19.26.18:329][556]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.09.04-19.26.18:329][556]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.09.04-19.26.18:329][556]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.09.04-19.26.18:329][556]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.09.04-19.26.18:331][556]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.09.04-19.26.18:331][556]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.09.04-19.26.18:331][556]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.09.04-19.26.18:331][556]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.09.04-19.26.18:331][556]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.09.04-19.26.18:331][556]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.09.04-19.26.18:331][556]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.09.04-19.26.18:331][556]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.09.04-19.26.18:331][556]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.09.04-19.26.18:331][556]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.09.04-19.26.18:331][556]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.09.04-19.26.18:331][556]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.09.04-19.26.18:331][556]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.09.04-19.26.18:331][556]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.09.04-19.26.18:331][556]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.09.04-19.26.18:332][556]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.09.04-19.26.18:332][556]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.09.04-19.26.18:332][556]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.09.04-19.26.18:332][556]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.09.04-19.26.18:332][556]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.09.04-19.26.18:332][556]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.09.04-19.26.18:332][556]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.09.04-19.26.18:332][556]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.09.04-19.26.18:332][556]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.09.04-19.26.18:332][556]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.09.04-19.26.18:332][556]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.09.04-19.26.18:332][556]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.09.04-19.26.18:332][556]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.09.04-19.26.18:332][556]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.09.04-19.26.18:719][556]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.09.04-19.26.18:719][556]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.09.04-19.26.18:719][556]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.09.04-19.26.18:719][556]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.09.04-19.26.18:720][556]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.09.04-19.26.18:720][556]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.09.04-19.26.18:720][556]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.09.04-19.26.18:720][556]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.09.04-19.26.18:720][556]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.09.04-19.26.18:720][556]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.09.04-19.26.18:720][556]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.09.04-19.26.18:720][556]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.09.04-19.26.18:720][556]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.09.04-19.26.18:720][556]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.09.04-19.26.18:720][556]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.09.04-19.26.18:720][556]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.09.04-19.26.18:720][556]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.09.04-19.26.18:720][556]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.09.04-19.26.18:721][556]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.09.04-19.26.18:721][556]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.09.04-19.26.18:721][556]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.09.04-19.26.18:721][556]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.09.04-19.26.18:721][556]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.09.04-19.26.18:721][556]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.09.04-19.26.18:721][556]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.09.04-19.26.18:773][556]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.09.04-19.26.18:894][556]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.09.04-19.26.18:894][556]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.09.04-19.26.18:894][556]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.09.04-19.26.18:894][556]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.09.04-19.26.18:894][556]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.09.04-19.26.18:894][556]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.09.04-19.26.18:894][556]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.09.04-19.26.18:894][556]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.09.04-19.26.18:895][556]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.09.04-19.26.18:895][556]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.09.04-19.26.18:895][556]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.09.04-19.26.18:895][556]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.09.04-19.26.18:895][556]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.09.04-19.26.18:895][556]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.09.04-19.26.18:895][556]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.09.04-19.26.18:895][556]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.09.04-19.26.18:895][556]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.09.04-19.26.18:895][556]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.09.04-19.26.18:895][556]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.09.04-19.26.18:895][556]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.09.04-19.26.18:895][556]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.09.04-19.26.18:895][556]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.09.04-19.26.18:895][556]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.09.04-19.26.18:895][556]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.09.04-19.26.18:895][556]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.09.04-19.26.18:895][556]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.09.04-19.26.18:895][556]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.09.04-19.26.18:895][556]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.09.04-19.26.18:895][556]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.09.04-19.26.18:895][556]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.09.04-19.26.18:896][556]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.09.04-19.26.18:896][556]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.09.04-19.26.18:896][556]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.09.04-19.26.18:897][556]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.09.04-19.26.18:897][556]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.09.04-19.26.18:998][556]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.09.04-19.26.19:003][556]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.09.04-19.26.19:003][556]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.09.04-19.26.19:003][556]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.09.04-19.26.19:003][556]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.09.04-19.26.19:003][556]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.09.04-19.26.19:003][556]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.09.04-19.26.19:004][556]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.09.04-19.26.19:110][556]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.09.04-19.26.19:110][556]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.09.04-19.26.19:110][556]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.09.04-19.26.19:110][556]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.09.04-19.26.19:156][556]LogDerivedDataCache: Shutdown
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.09.04-19.26.19:156][556]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.09.04-19.26.22:162][556]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.09.04-19.26.22:162][556]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.09.04-19.26.22:162][556]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.09.04-19.26.22:162][556]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.09.04-19.26.22:162][556]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.09.04-19.26.22:162][556]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.09.04-19.26.22:162][556]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.09.04-19.26.22:167][556]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.09.04-19.26.22:167][556]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.09.04-19.26.22:167][556]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.09.04-19.26.22:167][556]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.09.04-19.26.22:167][556]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.09.04-19.26.22:167][556]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.09.04-19.26.22:167][556]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.09.04-19.26.22:167][556]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.09.04-19.26.22:167][556]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.09.04-19.26.22:167][556]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.09.04-19.26.22:171][556]LogExit: Exiting.
+[2016.09.04-19.26.22:210][556]Log file closed, 09/04/16 15:26:22
